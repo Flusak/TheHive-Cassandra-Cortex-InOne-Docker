@@ -8,7 +8,6 @@ job_directory=/tmp/cortex-jobs
 3. Создать в Cortex организацию и пользователя. Сгенерировать API ключ для пользователя и вставить его в конфигурационный файл TheHive вместо {API_KEY}:
 ```
 ...
-
 cortex {
   servers = [
     {
