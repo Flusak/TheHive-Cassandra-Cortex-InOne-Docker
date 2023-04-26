@@ -5,7 +5,7 @@ TheHive + Cassandra + Cortex
 job_directory=/tmp/cortex-jobs
 ```
 2. ***docker-compose up***
-3. Создать в Cortex организацию и пользователя. Сгенерировать API ключ и вставить в его конфигурационный файл TheHive вместо {API_KEY}:
+3. Создать в Cortex организацию и пользователя. Сгенерировать API ключ для пользователя и вставить его в конфигурационный файл TheHive вместо {API_KEY}:
 ```
 cortex {
   servers = [
