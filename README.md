@@ -1,6 +1,6 @@
 TheHive + Cassandra + Cortex
 
-1. Создать в директории с ***docker-compose.yml*** файл .env и добавить в него:
+1. Создать в директории с ***docker-compose.yml*** файл ***.env*** и добавить в него:
 ```
 job_directory=/tmp/cortex-jobs
 ```
