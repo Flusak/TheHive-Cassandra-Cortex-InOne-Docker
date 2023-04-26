@@ -14,7 +14,7 @@ cortex {
       url = "http://cortex:9001"
       auth {
         type = "bearer"
-        key = "{API_KEY}"
+        key = "{API_KEY}" #Change this
       }
       includedTheHiveOrganisations = ["*"]
       excludedTheHiveOrganisations = []
