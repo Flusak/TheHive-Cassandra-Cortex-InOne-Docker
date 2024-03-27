@@ -11,6 +11,7 @@ services:
       - CASSANDRA_CLUSTER_NAME=thp
     ports:
       - '7000:7000'
+      - '9042:9042'
     volumes:
       - './vol/cassandra/data:/var/lib/cassandra/data'
     networks:
