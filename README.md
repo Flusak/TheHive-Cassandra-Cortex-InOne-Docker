@@ -25,3 +25,6 @@ cortex {
 ```
 4. ```docker restart {thehive_container_id}```
 5. Готово.
+
+
+При ошибке вида ```thehive4       | [warn] o.t.s.u.Retry [|] An error occurs (java.lang.IllegalArgumentException: Could not instantiate implementation: org.janusgraph.diskstorage.lucene.LuceneIndex), retrying (*)``` необходимо выдать права на директории ```./vol/thehive/data``` и ```./vol/thehive/data``` пользователю, под которым был запущен docker compose!
